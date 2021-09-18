@@ -29,16 +29,16 @@ export const COINS = [
 
 export const DRINKS = [
   {
-    key: 'Coke', label: 'Coke', price: 8, icon: <img alt="" src="/assets/images/coca-cola.jpeg" />,
+    key: 'Coke', label: 'Coke', price: 8, icon: <img alt="" src={`${process.env.PUBLIC_URL}/assets/images/coca-cola.jpeg`} />,
   },
   {
-    key: 'Sparkling_Water', label: 'Sparkling Water', price: 6, icon: <img alt="" src="/assets/images/sparkling-water.jpeg" />,
+    key: 'Sparkling_Water', label: 'Sparkling Water', price: 6, icon: <img alt="" src={`${process.env.PUBLIC_URL}/assets/images/sparkling-water.jpeg`} />,
   },
   {
-    key: 'Water', label: 'Water', price: 5, icon: <img alt="" src="/assets/images/water.jpeg" />,
+    key: 'Water', label: 'Water', price: 5, icon: <img alt="" src={`${process.env.PUBLIC_URL}/assets/images/water.jpeg`} />,
   },
   {
-    key: 'Ice_Tea', label: 'Ice Tea', price: 7, icon: <img alt="" src="/assets/images/ice-tea.jpeg" />,
+    key: 'Ice_Tea', label: 'Ice Tea', price: 7, icon: <img alt="" src={`${process.env.PUBLIC_URL}/assets/images/ice-tea.jpeg`} />,
   },
 ];
 
