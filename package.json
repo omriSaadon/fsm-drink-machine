@@ -2,7 +2,7 @@
   "name": "drink-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://omriSaadon.github.io/fsm-drink-machine",
+  "homepage" : "https://omriSaadon.github.io/fsm-drink-machine",
   "dependencies": {
     "@babel/core": "7.12.3",
     "@babel/plugin-proposal-export-default-from": "^7.14.5",
