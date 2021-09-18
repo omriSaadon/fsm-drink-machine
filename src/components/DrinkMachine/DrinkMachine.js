@@ -16,7 +16,7 @@ const DrinkMachine = () => {
     <FsmStoreProvider machineSpec={machineSpec}>
       <NotificationStatus />
       <div className={classes.wrapper}>
-        <img className={classes.img} alt="drink" src="/assets/images/drink.jpg" />
+        <img className={classes.img} alt="drink" src={`${process.env.PUBLIC_URL}/assets/images/drink.jpg`} />
         <div className={classes.cards}>
           {components.map((Component) => <CardWrapper key={Component.name}><Component /></CardWrapper>)}
         </div>
