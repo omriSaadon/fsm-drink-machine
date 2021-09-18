@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-head"
+    >
+      <div
+        class="ant-card-head-wrapper"
+      >
+        <div
+          class="ant-card-head-title"
+        >
+          Choose Your Drink
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-card-body"
+    >
+      <div>
+        <div>
+          <button
+            class="ant-btn ant-btn-round ant-btn-lg"
+            type="button"
+          >
+            <img
+              alt=""
+              src="/assets/images/coca-cola.jpeg"
+            />
+            <span>
+              Coke - 8 ₪
+            </span>
+          </button>
+          <button
+            class="ant-btn ant-btn-round ant-btn-lg"
+            type="button"
+          >
+            <img
+              alt=""
+              src="/assets/images/sparkling-water.jpeg"
+            />
+            <span>
+              Sparkling Water - 6 ₪
+            </span>
+          </button>
+          <button
+            class="ant-btn ant-btn-round ant-btn-lg"
+            type="button"
+          >
+            <img
+              alt=""
+              src="/assets/images/water.jpeg"
+            />
+            <span>
+              Water - 5 ₪
+            </span>
+          </button>
+          <button
+            class="ant-btn ant-btn-round ant-btn-lg"
+            type="button"
+          >
+            <img
+              alt=""
+              src="/assets/images/ice-tea.jpeg"
+            />
+            <span>
+              Ice Tea - 7 ₪
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

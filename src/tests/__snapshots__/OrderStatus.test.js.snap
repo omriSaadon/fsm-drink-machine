@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order status snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-card ant-card-bordered"
+  >
+    <div
+      class="ant-card-head"
+    >
+      <div
+        class="ant-card-head-wrapper"
+      >
+        <div
+          class="ant-card-head-title"
+        >
+          Order Status
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-card-body"
+    >
+      You have paid 0 ₪
+      <button
+        class="ant-btn ant-btn-round ant-btn-sm"
+        type="button"
+      >
+        <span>
+          Cancel Payment
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

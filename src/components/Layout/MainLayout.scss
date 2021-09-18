@@ -1,0 +1,27 @@
+
+$header-height: 50px;
+$white: #ffffff;
+$contrast: #f6f6f6;
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $contrast;
+}
+
+.content {
+  height: 100%;
+  width: 1170px;
+  box-shadow: 0 2px 4px 0 rgba(17, 17, 17, .2);
+  background-color: $white;
+  padding: 10px 50px 55px;
+}

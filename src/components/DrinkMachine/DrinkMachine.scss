@@ -1,0 +1,23 @@
+$small: 1150px;
+
+.wrapper {
+  display: flex;
+}
+
+.img {
+  height: 650px;
+  width: 450px;
+  margin-right: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  height: 550px;
+}
+
+@media (max-width: $small) {
+  .cards {
+    height: 1100px;
+  }
+}

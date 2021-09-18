@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      Test text in layout
+    </div>
+  </div>
+</DocumentFragment>
+`;

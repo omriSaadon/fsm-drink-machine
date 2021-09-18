@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Insufficient funds 1`] = `
+<DocumentFragment>
+  <div />
+  <div>
+    <img
+      alt="drink"
+      src="/assets/images/drink.jpg"
+    />
+    <div>
+      <div>
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Payment
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="ant-alert ant-alert-warning ant-alert-no-icon"
+              data-show="true"
+              role="alert"
+            >
+              <div
+                class="ant-alert-content"
+              >
+                <div
+                  class="ant-alert-message"
+                >
+                  We accepts coins only
+                </div>
+                <div
+                  class="ant-alert-description"
+                />
+              </div>
+            </div>
+            <div>
+              <button
+                class="ant-btn ant-btn-round"
+                type="button"
+              >
+                <span>
+                  1 ₪
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-round"
+                type="button"
+              >
+                <span>
+                  2 ₪
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-round"
+                type="button"
+              >
+                <span>
+                  5 ₪
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-round"
+                type="button"
+              >
+                <span>
+                  10 ₪
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Wallet
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div>
+              Current Budget: 10 ₪
+            </div>
+            <div>
+              Next Deposit: 10
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Choose Your Drink
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div>
+              <div>
+                <button
+                  class="ant-btn ant-btn-round ant-btn-lg"
+                  type="button"
+                >
+                  <img
+                    alt=""
+                    src="/assets/images/coca-cola.jpeg"
+                  />
+                  <span>
+                    Coke - 8 ₪
+                  </span>
+                </button>
+                <button
+                  class="ant-btn ant-btn-round ant-btn-lg"
+                  type="button"
+                >
+                  <img
+                    alt=""
+                    src="/assets/images/sparkling-water.jpeg"
+                  />
+                  <span>
+                    Sparkling Water - 6 ₪
+                  </span>
+                </button>
+                <button
+                  class="ant-btn ant-btn-round ant-btn-lg"
+                  type="button"
+                >
+                  <img
+                    alt=""
+                    src="/assets/images/water.jpeg"
+                  />
+                  <span>
+                    Water - 5 ₪
+                  </span>
+                </button>
+                <button
+                  class="ant-btn ant-btn-round ant-btn-lg"
+                  type="button"
+                >
+                  <img
+                    alt=""
+                    src="/assets/images/ice-tea.jpeg"
+                  />
+                  <span>
+                    Ice Tea - 7 ₪
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="ant-card ant-card-bordered"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Order Status
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            You have paid 0 ₪
+            <button
+              class="ant-btn ant-btn-round ant-btn-sm"
+              type="button"
+            >
+              <span>
+                Cancel Payment
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      Mock test flow
+    </div>
+  </div>
+</DocumentFragment>
+`;

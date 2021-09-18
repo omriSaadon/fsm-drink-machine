@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verify snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      Mock test flow
+    </div>
+  </div>
+</DocumentFragment>
+`;
