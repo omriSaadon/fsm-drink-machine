@@ -21,7 +21,9 @@ exports[`Order status snapshot 1`] = `
     <div
       class="ant-card-body"
     >
-      You have paid 0 ₪
+      <div>
+        You have paid 0 ₪
+      </div>
       <button
         class="ant-btn ant-btn-round ant-btn-sm"
         type="button"

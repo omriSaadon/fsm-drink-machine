@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { Card } from 'antd';
 import { useStore } from 'store/FsmStore';
 import { getCurrentBudget } from 'store/fsm_reducer';
-import { GENERAL_ACTIONS } from 'constants/index';
 import { useCountdown } from 'custom-hooks/useCountdown';
+import { GENERAL_ACTIONS } from 'constants/index';
 import classes from './Budget.scss';
 
 const DEPOSIT_TIME = 10;

@@ -16,7 +16,7 @@ test('Verify next deposit', async () => {
   const timer = 9;
   for (let i = timer; i >= 0; i--) {
     await waitFor(() => {
-      const linkElement = screen.queryByText(`Next Deposit: ${i === 0 ? timer + 1 : i}`);
+      const linkElement = screen.queryByText(`Next Deposit: ${i}`);
       expect(linkElement).toBeInTheDocument();
     });
   }

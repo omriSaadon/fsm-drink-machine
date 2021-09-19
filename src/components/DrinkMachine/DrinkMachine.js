@@ -1,6 +1,6 @@
 import React from 'react';
-import Budget from 'components/Budget/Budget';
 import DrinkChooser from 'components/DrinkChooser/DrinkChooser';
+import Budget from 'components/Budget/Budget';
 import DrinkFlowChart from 'components/DrinkFlowChart/DrinkFlowChart';
 import OrderStatus from 'components/OrderStatus/OrderStatus';
 import Payment from 'components/Payment/Payment';

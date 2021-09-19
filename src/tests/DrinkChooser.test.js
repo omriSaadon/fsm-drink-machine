@@ -1,9 +1,9 @@
 import React from 'react';
 import { screen, fireEvent, waitFor } from '@testing-library/react';
 import axios from 'axios';
+import { STATES } from 'constants/index';
 import DrinkChooser from 'components/DrinkChooser/DrinkChooser';
 import NotificationStatus from 'components/Notifications/NotificationStatus';
-import { STATES } from 'constants/index';
 import { machineRender } from './helpers/machineHelper';
 import mockStore from './mocks/mock_context';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { screen, fireEvent } from '@testing-library/react';
+import { STATES } from 'constants/index';
 import Payment from 'components/Payment/Payment';
 import OrderStatus from 'components/OrderStatus/OrderStatus';
 import NotificationStatus from 'components/Notifications/NotificationStatus';
-import { STATES } from 'constants/index';
 import { machineRender } from './helpers/machineHelper';
 import mockStore from './mocks/mock_context';
 

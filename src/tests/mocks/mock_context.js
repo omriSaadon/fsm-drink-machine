@@ -1,7 +1,7 @@
-import { INITIAL_BUDGET, STATES, ACTION_STATES } from 'constants/index';
 import {
   makePayment, addBudget, cancelPayment, makePurchase, addMessage,
 } from 'store/fsm_reducer';
+import { INITIAL_BUDGET, STATES, ACTION_STATES } from 'constants/index';
 
 export default ({ state = STATES.IDLE, paid = 0, currentBudget = INITIAL_BUDGET }) => ({
   initialState: {
