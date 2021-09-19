@@ -15,7 +15,7 @@
 ###### 4. **Done** - Will lead to Idle state
 
 #
-#
+
 #### The Drink machine is using a custom hook for state management - UseFsm.
 #### The useFsm is a folder but can be plugged easily as a standalone repository.
 ##### UseFsm receives an object that specificies the machine states and context, for example:
