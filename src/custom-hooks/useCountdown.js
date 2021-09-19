@@ -5,7 +5,7 @@ export const useCountdown = (initial, wait = 1000) => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      if (timer - 1 === 0) setTimer(initial);
+      if (timer === 0) setTimer(initial);
       else setTimer(timer - 1);
     }, wait);
     return () => clearTimeout(timeout);

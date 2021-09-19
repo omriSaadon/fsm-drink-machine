@@ -10,14 +10,14 @@ const DEPOSIT_TIME = 10;
 const ADD_BUDGET = 10;
 
 const Budget = () => {
-  const [nextDeposit] = useCountdown(DEPOSIT_TIME);
+  const [nextDeposit] = useCountdown(DEPOSIT_TIME - 1);
   const [state, dispatch] = useStore();
 
   const currentBudget = getCurrentBudget(state);
 
   useEffect(() => {
     // Each ADD_BUDGET time, we get new money into our budget/wallet.
-    if (nextDeposit - 1 === 0) dispatch({ generalAction: GENERAL_ACTIONS.ADD_BUDGET, payload: ADD_BUDGET });
+    if (nextDeposit === 0) dispatch({ generalAction: GENERAL_ACTIONS.ADD_BUDGET, payload: ADD_BUDGET });
   }, [nextDeposit]);
 
   return (
