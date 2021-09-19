@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fsm-drink-machine/static/css/main.b08b58b7.chunk.css",
+    "main.css": "/fsm-drink-machine/static/css/main.c90976c2.chunk.css",
     "main.js": "/fsm-drink-machine/static/js/main.fde63e01.chunk.js",
     "main.js.map": "/fsm-drink-machine/static/js/main.fde63e01.chunk.js.map",
     "runtime-main.js": "/fsm-drink-machine/static/js/runtime-main.03215762.js",
@@ -10,14 +10,14 @@
     "static/js/2.4d0ff941.chunk.js.map": "/fsm-drink-machine/static/js/2.4d0ff941.chunk.js.map",
     "index.html": "/fsm-drink-machine/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/fsm-drink-machine/static/css/2.a95be28f.chunk.css.map",
-    "static/css/main.b08b58b7.chunk.css.map": "/fsm-drink-machine/static/css/main.b08b58b7.chunk.css.map",
+    "static/css/main.c90976c2.chunk.css.map": "/fsm-drink-machine/static/css/main.c90976c2.chunk.css.map",
     "static/js/2.4d0ff941.chunk.js.LICENSE.txt": "/fsm-drink-machine/static/js/2.4d0ff941.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.03215762.js",
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.4d0ff941.chunk.js",
-    "static/css/main.b08b58b7.chunk.css",
+    "static/css/main.c90976c2.chunk.css",
     "static/js/main.fde63e01.chunk.js"
   ]
 }
