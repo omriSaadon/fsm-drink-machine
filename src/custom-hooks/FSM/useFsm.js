@@ -1,5 +1,9 @@
 import { useReducer } from 'react';
-
+/*
+  UseFsm is serving as a state management.
+  States are defined via the machineSpec parameter.
+  Each action can lead to the next state as described at the machineSpec.
+*/
 const FsmReducer = (machineSpec) => (currentState, action) => {
   if (action.generalAction) {
     const generalAction = machineSpec.generalActions[action.generalAction];

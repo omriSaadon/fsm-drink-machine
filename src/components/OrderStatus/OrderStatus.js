@@ -14,6 +14,7 @@ const OrderStatus = () => {
   const paidText = `You have paid ${paid} ₪`;
 
   const onCancelPament = () => {
+    // Cancel payment can be made only on Ordering state, otherwise an error wil appear.
     if (drinkMachineStatus === STATES.ORDERING) {
       dispatch({ state: ACTION_STATES.CANCEL });
     } else {
@@ -23,7 +24,7 @@ const OrderStatus = () => {
 
   return (
     <Card title="Order Status">
-      {paidText}
+      <div>{paidText}</div>
       <Button className={classes.cancelPayment} onClick={onCancelPament} shape="round" size="small">Cancel Payment</Button>
     </Card>
   );

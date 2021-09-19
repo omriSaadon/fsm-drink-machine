@@ -15,10 +15,12 @@ const Payment = () => {
 
   const onPayment = (value) => () => {
     if (drinkMachineStatus === STATES.DELIVERY) {
+      // While the machine is delivering, the machine would not accept any payment.
       dispatch({ generalAction: GENERAL_ACTIONS.ADD_MESSAGE, payload: { message: 'Please wait until the machine finish delivery', type: 'error' } });
     } else if (currentBudget - value >= 0) {
       dispatch({ state: ACTION_STATES.PAYMENT, payload: value });
     } else {
+      // It's not possible to borrow money from the machine
       dispatch({ generalAction: GENERAL_ACTIONS.ADD_MESSAGE, payload: { message: 'Margin is Disallowed', type: 'error' } });
     }
   };
