@@ -22,7 +22,8 @@
 /jsconfig.json
 .eslintrc.js
 build/
-config/
+config/*
+!config/wbpack.config.js
 scripts/
 
 npm-debug.log*
