@@ -23,7 +23,7 @@
 .eslintrc.js
 build/
 config/*
-!config/wbpack.config.js
+!config/webpack.config.js
 scripts/
 
 npm-debug.log*
