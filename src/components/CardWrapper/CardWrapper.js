@@ -6,7 +6,11 @@ const propTypes = {
   children: PropTypes.node,
 };
 
-const CardWrapper = ({ children }) => <div className={classes.item}>{children}</div>;
+const CardWrapper = ({ children }) => {
+  const renderChild = (child) => <div className={classes.item}>{child}</div>;
+
+  return React.Children.map(children, renderChild);
+};
 
 CardWrapper.propTypes = propTypes;
 export default CardWrapper;

@@ -10,20 +10,22 @@ import NotificationStatus from 'components/Notifications/NotificationStatus';
 import CardWrapper from 'components/CardWrapper/CardWrapper';
 import classes from './DrinkMachine.scss';
 
-const DrinkMachine = () => {
-  const components = [Payment, Budget, DrinkChooser, OrderStatus];
-  return (
-    <FsmStoreProvider machineSpec={machineSpec}>
-      <NotificationStatus />
-      <div className={classes.wrapper}>
-        <img className={classes.img} alt="drink" src={`${process.env.PUBLIC_URL}/assets/images/drink.jpg`} />
-        <div className={classes.cards}>
-          {components.map((Component) => <CardWrapper key={Component.name}><Component /></CardWrapper>)}
-        </div>
+const DrinkMachine = () => (
+  <FsmStoreProvider machineSpec={machineSpec}>
+    <NotificationStatus />
+    <div className={classes.wrapper}>
+      <img className={classes.img} alt="drink" src={`${process.env.PUBLIC_URL}/assets/images/drink.jpg`} />
+      <div className={classes.cards}>
+        <CardWrapper>
+          <Payment />
+          <Budget />
+          <DrinkChooser />
+          <OrderStatus />
+        </CardWrapper>
       </div>
-      <DrinkFlowChart />
-    </FsmStoreProvider>
-  );
-};
+    </div>
+    <DrinkFlowChart />
+  </FsmStoreProvider>
+);
 
 export default DrinkMachine;
