@@ -22,8 +22,6 @@
 /jsconfig.json
 .eslintrc.js
 build/
-config/*
-!config/webpack.config.js
 
 npm-debug.log*
 yarn-debug.log*
